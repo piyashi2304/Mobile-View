@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main-parent{
+    filter: blur(8px);
+}
+body{
+    background-color: #67676729;
+}
+ a{
+    text-decoration: none;
+}
+.parent{
+    border: 1px solid #F7F7F7;
+    background-color: #F7F7F7;
+    box-shadow: 1px 1px 30px #7B7B7B29;
+
+}
+h1{
+    color: black;
+    text-shadow: 2px 2px 1px #7B7B7B29;
+    background-color: #FFFFFF;
+    height: 40px;
+
+}
+h1 span{
+    color: #00A5EC;
+}
+.plus{
+    font-size: 30px;
+    color: #00A5EC;
+}
+ .parent-A{
+    margin: 40px;
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+    flex-wrap: wrap;
+
+
+}
+.box{
+    border: 1px solid #67676729;
+    background-color: #FFFFFF;
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px #67676729;
+}
+h5{
+    color: #00A5EC;
+    padding: 10px;
+}
+hr{
+    border: 1px solid #EDEDED;
+}
+.item{
+    color: #C2C2C2;
+    padding-left: 10px;
+}
+.check2{
+    text-decoration: line-through;
+}
+.parent1{
+    position: absolute;
+    top: 140px;
+    left: 60px;
+} 
+.child{
+    border: 1px solid #EDEDED;
+    box-shadow: 1px 1px 20px #67676729;
+    background-color: #FFFFFF;
+    width: 250px;
+    height: 200px;
+    border-radius: 10px;
+}
+.heading{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 30px;
+}
+.cross{
+    color: #858585;
+}
+.child1{
+    border: 1px solid #EDEDED;
+    margin-top: 40px;
+    color: #858585;
+    background-color: #F7F7F7;
+    border-radius: 4px;
+    width: 200px;
+    padding: 10px;
+    margin-left: 5px;
+}
+.child2{
+    margin: 50px 130px;
+    padding: 5px;
+    width: 90px;
+    color: #FFFFFF;
+    background-color: #00A5EC;
+}
+.container-1{
+     width: 280px;
+     margin: 20px ;
+}
+.back{
+    color: #424242;
+}
+.back span{
+    font-size: 10px;
+    padding: 5px;
+    color: #858585;
+}
+.class3{
+   margin-top: 15px;
+}
+@media screen and (min-width:250px) and (max-width:500px){
+   .parent-A {
+        flex-direction: column;
+        margin-top: 60px;
+    }
+    .plus{
+        position: absolute;
+        top: 50px;
+        left: 150px;
+    }
+     .parent1{
+          position: absolute;
+          top: 140px;
+          left: 30px;
+    }
+}
